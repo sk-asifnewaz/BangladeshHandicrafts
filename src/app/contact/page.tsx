@@ -44,6 +44,8 @@ export default function ContactPage() {
 
     const payload = {
       ...formData,
+      to_email: SITE_CONFIG.contact.email,
+      recipient: "zahir.ahmed@bangladeshhandicrafts.shop",
       subject: `Export Inquiry from ${formData.company || formData.name} (${formData.country})`,
       access_key: web3formsKey || "",
     };
@@ -83,7 +85,9 @@ export default function ContactPage() {
     } catch (err: unknown) {
       setStatus("error");
       setErrorMessage(
-        err instanceof Error ? err.message : "Failed to send message. Please email export@bangladeshhandicrafts.shop directly."
+        err instanceof Error
+          ? err.message
+          : `Failed to send message. Please email ${SITE_CONFIG.contact.email} directly.`
       );
     }
   };

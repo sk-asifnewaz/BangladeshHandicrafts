@@ -52,6 +52,8 @@ export function EnquiryDrawer() {
 
     const payload = {
       ...formData,
+      to_email: SITE_CONFIG.contact.email,
+      recipient: "zahir.ahmed@bangladeshhandicrafts.shop",
       subject: `New B2B Export Enquiry from ${formData.company || formData.name} (${formData.country})`,
       productsRequested: items.map((i) => ({
         id: i.product.id,

@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   showPrices: false, // SHOW_PRICES flag (default false) -> shows "Price on request"
 
   contact: {
-    email: "export@bangladeshhandicrafts.shop",
+    email: "zahir.ahmed@bangladeshhandicrafts.shop",
     phone: "[REPLACE: +880 1700-000000]",
     whatsapp: "[REPLACE: +880 1700-000000]",
     whatsappClean: "8801700000000",
