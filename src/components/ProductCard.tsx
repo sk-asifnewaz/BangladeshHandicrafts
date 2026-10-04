@@ -34,15 +34,15 @@ export function ProductCard({ product }: ProductCardProps) {
 
   return (
     <div className="group flex flex-col h-full bg-white text-left select-none">
-      {/* 1:1 Square Image Container */}
-      <div className="relative aspect-square w-full overflow-hidden bg-[#F2F2F2] border border-[#E5E5E5]">
-        <Link href={`/products/${product.slug}`} className="block w-full h-full">
+      {/* 1:1 Square Image Container with object-contain */}
+      <div className="relative aspect-square w-full overflow-hidden bg-[#F8F8F8] border border-[#E5E5E5]">
+        <Link href={`/products/${product.slug}`} className="block w-full h-full relative">
           <Image
             src={product.images[0] || "/products/placeholder.jpg"}
             alt={product.name}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+            className="object-contain p-3.5 transition-transform duration-500 ease-out group-hover:scale-104"
           />
         </Link>
 
@@ -61,7 +61,7 @@ export function ProductCard({ product }: ProductCardProps) {
         )}
 
         {/* Hover Action Bar on Desktop */}
-        <div className="absolute inset-x-0 bottom-0 p-2 bg-gradient-to-t from-white/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex gap-1.5 z-10">
+        <div className="absolute inset-x-0 bottom-0 p-2 bg-gradient-to-t from-white/95 via-white/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex gap-1.5 z-10">
           <button
             type="button"
             onClick={handleQuickAdd}
@@ -96,7 +96,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
       </div>
 
-      {/* Product Information (Modeled on Banglacraft Shop Style) */}
+      {/* Product Information (Banglacraft Style) */}
       <div className="pt-3 pb-1 flex flex-col flex-1">
         {/* Small grey MATERIAL label above product name */}
         <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.18em] font-medium text-[#777777] block">
