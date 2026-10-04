@@ -17,14 +17,14 @@ export default function CollectionsPage() {
       <div className="border-b border-[#E5E5E5] bg-[#F2F2F2] py-12 sm:py-16 text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <span className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#777777] block mb-2">
-            WHOLESALE EXPORT CATALOG
+            WHOLESALE & RETAIL CATALOG
           </span>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-[0.2em] uppercase text-[#111111] mb-3">
             All Collections
           </h1>
           <p className="text-xs sm:text-sm text-[#555555] max-w-xl mx-auto leading-relaxed">
-            Direct artisan manufacturing across 8 sustainable craft disciplines. All products are
-            customizable for European private-label buyers.
+            Direct artisan manufacturing across 8 sustainable craft disciplines. Available for volume
+            export orders and individual retail inquiries worldwide.
           </p>
         </div>
       </div>

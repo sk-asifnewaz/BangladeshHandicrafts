@@ -168,6 +168,21 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start space-x-3.5">
+                <Phone className="w-4 h-4 text-[#111111] flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="block text-[#111111] uppercase tracking-wider text-[11px]">
+                    Direct Phone Line
+                  </strong>
+                  <a
+                    href={`tel:${SITE_CONFIG.contact.phone.replace(/[^0-9+]/g, "")}`}
+                    className="text-[#555555] hover:text-black hover:underline mt-0.5 block font-mono"
+                  >
+                    {SITE_CONFIG.contact.phone}
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3.5">
                 <MapPin className="w-4 h-4 text-[#111111] flex-shrink-0 mt-0.5" />
                 <div>
                   <strong className="block text-[#111111] uppercase tracking-wider text-[11px]">

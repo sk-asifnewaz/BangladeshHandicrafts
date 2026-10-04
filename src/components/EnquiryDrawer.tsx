@@ -245,7 +245,7 @@ export function EnquiryDrawer() {
                 <div className="pt-6">
                   <div className="flex items-center space-x-1.5 text-[11px] uppercase tracking-wider text-[#666666] mb-3">
                     <ShieldCheck className="w-3.5 h-3.5 text-[#111111]" />
-                    <span>European Wholesale Export Request</span>
+                    <span>Wholesale Export & Retail Inquiry</span>
                   </div>
 
                   <form onSubmit={handleSubmit} className="space-y-3.5">
@@ -370,7 +370,7 @@ export function EnquiryDrawer() {
                     </button>
 
                     <p className="text-[10px] text-center text-[#888888] pt-1">
-                      Inquiries receive official CIF/FOB pricing & sample lead times within 24–48h.
+                      Inquiries for volume wholesale and retail orders welcome · Quotations sent within 24–48h.
                     </p>
                   </form>
                 </div>

@@ -74,8 +74,8 @@ export const CATEGORIES: Category[] = [
     shortDescription: "Intricate running-stitch hand-embroidered throws, bedspreads, cushion covers, and tapestry panels.",
     description: "UNESCO-celebrated rural needlecraft where women artisans stitch narrative motifs and geometric ripples into pure cotton fabrics using layered natural yarn.",
     captionTitle: "HERITAGE NAKSHI KANTHA",
-    bannerImage: "/categories/textiles-banner.jpg",
-    tileImage: "/categories/textiles-tile.jpg",
+    bannerImage: "/categories/textiles-nakshi-kantha-banner.jpg",
+    tileImage: "/categories/textiles-nakshi-kantha-tile.jpg",
     featured: true,
   },
   {

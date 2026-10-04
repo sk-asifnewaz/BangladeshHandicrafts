@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 sm:mb-12 pb-4 border-b border-[#E5E5E5] gap-4">
             <div>
               <span className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#777777] block mb-1">
-                B2B CURATED SELECTIONS
+                WHOLESALE & RETAIL SELECTIONS
               </span>
               <h2 className="text-xl sm:text-2xl font-bold tracking-[0.18em] uppercase text-[#111111]">
                 {SITE_CONFIG.i18n.en.catalog.featuredCollection}
@@ -51,7 +51,7 @@ export default function HomePage() {
               href="/collections"
               className="inline-block px-8 py-3.5 border border-[#111111] text-xs uppercase tracking-[0.18em] font-medium text-[#111111] hover:bg-[#111111] hover:text-white transition-colors"
             >
-              Explore All 24+ Export Products
+              Explore All Handcrafted Collections
             </Link>
           </div>
         </div>
@@ -227,7 +227,7 @@ export default function HomePage() {
       <section className="py-20 sm:py-24 bg-white border-t border-[#EAEAEA]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <span className="text-[11px] font-mono uppercase tracking-[0.2em] text-[#777777] block">
-            EUROPEAN B2B COLLABORATION
+            EXPORT & RETAIL ORDERS WELCOME
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-[0.15em] uppercase text-[#111111] leading-tight">
             Ready to Curate Your Next Sustainable Collection?

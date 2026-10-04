@@ -81,6 +81,19 @@ export function ProductActions({ product }: ProductActionsProps) {
         </button>
       </div>
 
+      {/* Direct WhatsApp Quick Chat */}
+      <a
+        href={`https://wa.me/8801713001747?text=${encodeURIComponent(
+          `Hello, I would like to inquire about "${product.name}" (${product.material}) from Bangladesh Handicrafts.`
+        )}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full py-3 px-4 border border-[#CCCCCC] hover:border-black text-[#111111] text-xs uppercase tracking-[0.12em] font-medium flex items-center justify-center space-x-2 transition-colors"
+      >
+        <span className="w-2 h-2 rounded-full bg-emerald-600 inline-block" />
+        <span>Direct WhatsApp Inquiry (+880 1713-001747)</span>
+      </a>
+
       {/* Trust reassurance */}
       <div className="grid grid-cols-2 gap-3 pt-3 text-[11px] text-[#666666]">
         <div className="flex items-center space-x-2">

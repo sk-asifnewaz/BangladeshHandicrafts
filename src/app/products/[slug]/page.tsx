@@ -159,7 +159,7 @@ export default async function ProductDetailPage({ params }: Props) {
                   : SITE_CONFIG.i18n.en.catalog.priceOnRequest}
               </span>
               <p className="text-[11px] text-[#777777] mt-1">
-                FOB Chittagong Port / CIF European Main Ports upon quotation request.
+                FOB / CIF volume quotes & individual retail inquiries welcome upon request.
               </p>
             </div>
 

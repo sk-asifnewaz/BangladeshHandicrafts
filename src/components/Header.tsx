@@ -81,10 +81,22 @@ export function Header() {
                 <Search className="w-5 h-5 stroke-[1.5]" />
               </button>
 
-              {/* EU Export indicator */}
-              <div className="hidden md:flex items-center space-x-1 text-[11px] font-mono uppercase tracking-wider text-[#777777] border-l border-[#E5E5E5] pl-4">
+              {/* WhatsApp Quick Link */}
+              <a
+                href={SITE_CONFIG.socials.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hidden md:flex items-center space-x-1.5 text-xs text-[#111111] hover:opacity-75 px-2.5 py-1.5 border border-[#E5E5E5] hover:border-black transition-colors"
+                title="Chat on WhatsApp"
+              >
+                <span className="w-2 h-2 rounded-full bg-emerald-600 inline-block animate-pulse" />
+                <span className="font-mono text-[11px] font-medium">+880 1713-001747</span>
+              </a>
+
+              {/* Export & Retail indicator */}
+              <div className="hidden lg:flex items-center space-x-1 text-[11px] font-mono uppercase tracking-wider text-[#777777] border-l border-[#E5E5E5] pl-4">
                 <Globe className="w-3.5 h-3.5" />
-                <span>EU EXPORT B2B</span>
+                <span>EXPORT & RETAIL</span>
               </div>
 
               {/* Enquiry list drawer trigger */}

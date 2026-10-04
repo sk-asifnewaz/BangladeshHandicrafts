@@ -15,11 +15,11 @@ export function Footer() {
           <div className="flex items-center space-x-2">
             <span className="w-1.5 h-1.5 bg-white inline-block" />
             <span className="tracking-widest uppercase font-mono text-[#CCCCCC]">
-              B2B WHOLESALE & EXPORT PLATFORM
+              HANDCRAFTED EXPORT & RETAIL
             </span>
           </div>
           <p className="tracking-wider">
-            Direct consignment dispatch to European ports (Hamburg · Rotterdam · Antwerp · Le Havre)
+            Wholesale consignments & retail orders welcome · Contact us for any inquiry
           </p>
         </div>
       </div>
@@ -50,6 +50,17 @@ export function Footer() {
                   className="hover:text-white transition-colors underline-offset-4 hover:underline"
                 >
                   {SITE_CONFIG.contact.email}
+                </a>
+              </div>
+              <div className="flex items-center space-x-2.5">
+                <Phone className="w-4 h-4 text-[#777777] flex-shrink-0" />
+                <a
+                  href={SITE_CONFIG.socials.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors underline-offset-4 hover:underline font-mono"
+                >
+                  WhatsApp: {SITE_CONFIG.contact.whatsapp}
                 </a>
               </div>
               <div className="flex items-center space-x-2.5">

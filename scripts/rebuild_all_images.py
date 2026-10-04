@@ -184,4 +184,16 @@ create_product_shot(src_wood_hero,     "public/products/hand-carved-sheesham-woo
 create_product_shot(src_seagrass_hero, "public/products/date-palm-leaf-storage-bin/1.jpg", (0.49, 0.52, 0.65, 0.80), padding_pct=0.12)
 create_product_shot(src_seagrass_hero, "public/products/date-palm-leaf-storage-bin/2.jpg", (0.60, 0.56, 0.74, 0.84), padding_pct=0.14)
 
+# 25. peacock-motif-nakshi-kantha-tapestry
+create_product_shot(src_cat_textiles, "public/products/peacock-motif-nakshi-kantha-tapestry/1.jpg", (0.40, 0.15, 0.85, 0.60), padding_pct=0.10)
+create_product_shot(src_cat_textiles, "public/products/peacock-motif-nakshi-kantha-tapestry/2.jpg", (0.45, 0.18, 0.75, 0.48), padding_pct=0.12)
+
+# 26. floral-mandala-nakshi-baby-quilt
+create_product_shot(src_cat_textiles, "public/products/floral-mandala-nakshi-baby-quilt/1.jpg", (0.05, 0.05, 0.95, 0.95), padding_pct=0.10)
+create_product_shot(src_cat_textiles, "public/products/floral-mandala-nakshi-baby-quilt/2.jpg", (0.15, 0.35, 0.65, 0.85), padding_pct=0.12)
+
+# 27. traditional-bengal-kalka-table-runner
+create_product_shot(src_cat_textiles, "public/products/traditional-bengal-kalka-table-runner/1.jpg", (0.08, 0.20, 0.92, 0.75), padding_pct=0.10)
+create_product_shot(src_cat_textiles, "public/products/traditional-bengal-kalka-table-runner/2.jpg", (0.10, 0.38, 0.55, 0.80), padding_pct=0.12)
+
 print("\nAll category banners, category tiles, and product views successfully regenerated with studio padding!")

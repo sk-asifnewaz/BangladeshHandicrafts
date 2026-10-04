@@ -33,10 +33,10 @@ export default function PrivacyPage() {
               1. Overview & Commitment to Zero Unnecessary Tracking
             </h2>
             <p>
-              Bangladesh Handicrafts operates primarily as a B2B export catalog and portfolio website for
-              commercial importers, distributors, and retailers across the European Union. We do not sell
-              directly to retail consumers, nor do we operate programmatic behavioral ad tracking networks,
-              third-party analytics beacons, or user tracking scripts.
+              Bangladesh Handicrafts operates as an export catalog and portfolio website connecting
+              Bangladeshi master artisans with wholesale importers, interior designers, and retail clients worldwide.
+              We welcome inquiries for both volume wholesale orders and individual retail purchases. We do not operate
+              programmatic behavioral ad tracking networks, third-party analytics beacons, or user tracking scripts.
             </p>
           </section>
 

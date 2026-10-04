@@ -9,9 +9,9 @@ export const SITE_CONFIG = {
 
   contact: {
     email: "zahir.ahmed@bangladeshhandicrafts.shop",
-    phone: "[REPLACE: +880 1700-000000]",
-    whatsapp: "[REPLACE: +880 1700-000000]",
-    whatsappClean: "8801700000000",
+    phone: "+880 1713-001747",
+    whatsapp: "+880 1713-001747",
+    whatsappClean: "8801713001747",
     address: "[REPLACE: Export Display Suite & Head Office, Gulshan-2, Dhaka 1212, Bangladesh]",
     portOfLoading: "Chittagong Port (Sea Freight) / Hazrat Shahjalal International Airport, Dhaka (Air Cargo)",
     workingHours: "Sunday – Thursday: 09:00 – 18:00 (GMT+6)",
@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
   socials: {
     linkedin: "https://linkedin.com/company/[REPLACE: bangladesh-handicrafts]",
     instagram: "https://instagram.com/[REPLACE: bangladeshhandicrafts]",
-    whatsapp: "https://wa.me/8801700000000",
+    whatsapp: "https://wa.me/8801713001747",
   },
 
   // Centralized strings for future i18n localization (English, German, French)
@@ -99,12 +99,12 @@ export const SITE_CONFIG = {
         body: "Every basket, planter, brass vessel, and hand-embroidered textile is shaped entirely by hand using ancient Bangladeshi craft traditions. By sourcing raw sea grass, date palm, natural jute, and river cane directly from agricultural villages, we foster equitable livelihoods for rural craftswomen while supplying European buyers with authentic, zero-plastic artisanal homeware.",
       },
       footer: {
-        aboutCompany: "Bangladesh Handicrafts is a dedicated B2B wholesale and export platform facilitating ethical trade between rural Bangladeshi master artisans and European importers, retailers, and interior designers.",
+        aboutCompany: "Bangladesh Handicrafts connects rural Bangladeshi master artisans with importers, interior designers, and retail clients worldwide. Inquiries for both wholesale consignments and retail orders are welcome.",
         quickLinks: "Quick Navigation",
         categories: "Craft Materials",
         legal: "Legal & Trade",
         copyright: "© {year} Bangladesh Handicrafts. All rights reserved.",
-        disclaimer: "Strictly B2B Wholesale & Custom Export Production. Retail purchasing not offered.",
+        disclaimer: "Wholesale Export & Retail Orders Welcome. Contact us directly for any catalog inquiry, sample, or custom request.",
         cookieNotice: "We use essential cookies solely to remember your enquiry list and preferences. No third-party tracking or advertising cookies are utilized.",
         acceptCookies: "Acknowledge",
       },
